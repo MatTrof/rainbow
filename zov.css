@@ -1,0 +1,22 @@
+body{
+    background: black;
+}
+#box{
+    width: 2550px;
+    height: 1423px;
+    background: hsl(0, 0%, 0%);
+    font-size: 0em;
+    text-align: center;
+    animation-name: colorChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes colorChange{
+    0%{background-color: hsl(0, 100%, 62%)}
+    20%{background-color: hsl(35, 100%, 62%)}
+    40%{background-color: hsl(63, 100%, 62%)}
+    60%{background-color: hsl(103, 100%, 62%)}
+    80%{background-color: hsl(201, 100%, 62%)}
+    100%{background-color: hsl(268, 100%, 62%)}
+}
